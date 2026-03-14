@@ -1,5 +1,6 @@
 package com.ui.tests;
 
+import com.utility.BrowserUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,26 +9,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginTest {
     public static  void main(String[] args){
         WebDriver driver = new ChromeDriver();
-        driver.get("https://automationpractice.techwithjatin.com/");
-        driver.manage().window().maximize();
+        BrowserUtility browserUtility = new BrowserUtility(driver);
+        browserUtility.goToWebsite("https://automationpractice.techwithjatin.com/");
+        browserUtility.maximizeWindow();
 
         By signInLocator = By.xpath("//a[contains(text(),'Sign')]");
-        WebElement signInLinkWebElement = driver.findElement(signInLocator);
-        signInLinkWebElement.click();
+        browserUtility.clickOn(signInLocator);
 
         By emailTextBoxLocator = By.id("email");
-        WebElement emailTextBoxWebElement = driver.findElement(emailTextBoxLocator);
-        emailTextBoxWebElement.sendKeys("bixol92172@flosek.com");
+        browserUtility.enterText(emailTextBoxLocator,"bixol92172@flosek.com");
 
         By passwordTextBoxLocator = By.id("passwd");
-        WebElement passwordTextBoxWebElement = driver.findElement(passwordTextBoxLocator);
-        passwordTextBoxWebElement.sendKeys("password");
+        browserUtility.enterText(passwordTextBoxLocator,"password");
 
         By submitLoginButtonLocator = By.id("SubmitLogin");
-        WebElement submitLoginButtonWebElement = driver.findElement(submitLoginButtonLocator);
-        submitLoginButtonWebElement.click();
+        browserUtility.clickOn(submitLoginButtonLocator);
 
-        //driver.quit();
     }
 }
 
