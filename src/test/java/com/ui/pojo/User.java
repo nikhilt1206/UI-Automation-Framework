@@ -16,6 +16,12 @@ public class User {
         return password;
     }
 
+    public User(String emailAddress, String password) {
+        super();
+        this.emailAddress = emailAddress;
+        this.password = password;
+    }
+
     public void setPassword(String password) {
         this.password = password;
     }
