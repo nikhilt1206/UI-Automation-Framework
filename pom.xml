@@ -7,7 +7,27 @@
     <groupId>com.automation-assignment</groupId>
     <artifactId>com.automation-assignment</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <name>Automation-Assignment</name>
+    <description>Test Automation Framework for automationpractice.pl</description>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.5</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <browser>${browser}</browser>
+                        <isLambdaTest>${isLambdaTest}</isLambdaTest>
+                        <isHeadless>${isHeadless}</isHeadless>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>

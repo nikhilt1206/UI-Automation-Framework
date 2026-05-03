@@ -1,43 +1,39 @@
-2026-05-02 19:14:22 [main] INFO com.ui.listeners.TestListener Test suite started 
-2026-05-02 19:14:23 [main] INFO com.ui.tests.LoginTestCase Load the homepage of the website 
-2026-05-02 19:14:23 [main] INFO com.ui.pages.HomePage Launching browser for CHROME 
-2026-05-02 19:14:25 [main] INFO com.ui.pages.HomePage Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-05-02 19:14:25 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-05-02 19:14:25 [main] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
-2026-05-02 19:14:25 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-05-02 19:14:25 [main] INFO com.ui.pages.HomePage Trying to perform click to goto Sign in Page 
-2026-05-02 19:14:25 [main] INFO com.ui.pages.HomePage Finding element with locator By.xpath: //a[contains(text(),'Sign')] 
-2026-05-02 19:14:25 [main] INFO com.ui.pages.HomePage Element found and now performing click 
-2026-05-02 19:14:25 [main] INFO com.ui.pages.LoginPage Finding element with locator By.id: email 
-2026-05-02 19:14:25 [main] INFO com.ui.pages.LoginPage Element found and now enter text bixol92172@flosek.com 
-2026-05-02 19:14:26 [main] INFO com.ui.pages.LoginPage Finding element with locator By.id: passwd 
-2026-05-02 19:14:26 [main] INFO com.ui.pages.LoginPage Element found and now enter text password 
-2026-05-02 19:14:26 [main] INFO com.ui.pages.LoginPage Finding element with locator By.id: SubmitLogin 
-2026-05-02 19:14:26 [main] INFO com.ui.pages.LoginPage Element found and now performing click 
-2026-05-02 19:14:26 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-05-02 19:14:26 [main] INFO com.ui.tests.LoginTestCase Load the homepage of the website 
-2026-05-02 19:14:26 [main] INFO com.ui.pages.HomePage Launching browser for CHROME 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.HomePage Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-05-02 19:14:27 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-05-02 19:14:27 [main] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
-2026-05-02 19:14:27 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.HomePage Trying to perform click to goto Sign in Page 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.HomePage Finding element with locator By.xpath: //a[contains(text(),'Sign')] 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.HomePage Element found and now performing click 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.LoginPage Finding element with locator By.id: email 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.LoginPage Element found and now enter text nikhilt1220@gmail.com 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.LoginPage Finding element with locator By.id: passwd 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.LoginPage Element found and now enter text password 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.LoginPage Finding element with locator By.id: SubmitLogin 
-2026-05-02 19:14:27 [main] INFO com.ui.pages.LoginPage Element found and now performing click 
-2026-05-02 19:14:38 [main] ERROR com.ui.listeners.TestListener loginTest FAILED 
-2026-05-02 19:14:38 [main] ERROR com.ui.listeners.TestListener Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='header_user_info']//span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header_user_info']//span"}.
+2026-05-03 11:09:23 [main] INFO com.ui.listeners.TestListener Test suite started 
+2026-05-03 11:09:46 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-03 11:09:47 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2026-05-03 11:09:47 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2026-05-03 11:09:47 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-05-03 11:09:47 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Trying to perform click to goto Sign in Page 
+2026-05-03 11:09:47 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Finding element with locator By.xpath: //a[contains(text(),'Sign')] 
+2026-05-03 11:09:47 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Element found and now performing click 
+2026-05-03 11:09:48 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Finding element with locator By.id: email 
+2026-05-03 11:09:48 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Element found and now enter text bixol92172@flosek.com 
+2026-05-03 11:09:48 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Finding element with locator By.id: passwd 
+2026-05-03 11:09:48 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Element found and now enter text password 
+2026-05-03 11:09:48 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Finding element with locator By.id: SubmitLogin 
+2026-05-03 11:09:48 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Element found and now performing click 
+2026-05-03 11:09:49 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest PASSED 
+2026-05-03 11:10:12 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-03 11:10:13 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2026-05-03 11:10:13 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2026-05-03 11:10:13 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-05-03 11:10:13 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Trying to perform click to goto Sign in Page 
+2026-05-03 11:10:13 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Finding element with locator By.xpath: //a[contains(text(),'Sign')] 
+2026-05-03 11:10:13 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage Element found and now performing click 
+2026-05-03 11:10:14 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Finding element with locator By.id: email 
+2026-05-03 11:10:14 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Element found and now enter text nikhilt1220@gmail.com 
+2026-05-03 11:10:14 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Finding element with locator By.id: passwd 
+2026-05-03 11:10:14 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Element found and now enter text password 
+2026-05-03 11:10:14 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Finding element with locator By.id: SubmitLogin 
+2026-05-03 11:10:14 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage Element found and now performing click 
+2026-05-03 11:10:25 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2026-05-03 11:10:25 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='header_user_info']//span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header_user_info']//span"}.
 (tried for 10 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/73/900g1tjn4gl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50441}, goog:processID: 85000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50441/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bb77388c4c6b4aecdb297c8b1e7872d 
-2026-05-02 19:14:38 [main] INFO com.ui.listeners.TestListener Capturing Screenshot for the failed tests 
-2026-05-02 19:14:38 [main] INFO com.ui.listeners.TestListener Attaching the Screenshot to the HTML File 
-2026-05-02 19:14:38 [main] INFO com.ui.listeners.TestListener Test suite completed 
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.138 (022a5605792..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, goog:processID: 3816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbe6634d75c0e0f66a4706ba135e31eb 
+2026-05-03 11:10:25 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener Capturing Screenshot for the failed tests 
+2026-05-03 11:10:26 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener Attaching the Screenshot to the HTML File 
+2026-05-03 11:10:27 [main] INFO com.ui.listeners.TestListener Test suite completed 
