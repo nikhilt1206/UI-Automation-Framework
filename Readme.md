@@ -49,8 +49,9 @@ It is designed to automate end-to-end testing of web applications with a focus o
 ## ⚡ How to Run Tests
 
 ### Run using Maven
+```
 mvn clean test
-
+```
 ### Run using TestNG
 
 - Execute `testng.xml` from IDE
@@ -68,7 +69,7 @@ mvn clean test
 - https://temp-mail.org/en/
 
 ## 📁 Project Structure
-
+```
 src
 ├── main
 ├── test
@@ -76,7 +77,7 @@ config
 testData
 pom.xml
 testng.xml
-
+```
 ## 🚀 Future Enhancements
 
 - CI/CD integration (Jenkins)
@@ -84,6 +85,18 @@ testng.xml
 - Docker execution
 
 - Cross-browser execution improvements
+
+## ⚡ Key Highlights
+
+- Designed scalable automation framework using ThreadLocal for parallel execution  
+
+- Implemented centralized logging using Log4j2  
+
+- Integrated Extent Reports with TestNG listeners  
+
+- Built data-driven framework supporting Excel, JSON, and CSV  
+
+- Enabled cross-browser and headless execution  
 
 ## 👨‍💻 Author
 
