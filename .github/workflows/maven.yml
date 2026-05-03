@@ -25,7 +25,7 @@ jobs:
         cache: maven
         
     - name: Running UI Automation Framework with Maven
-      run: mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=fasle -X
+      run: mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false -X
 
     - name: Upload Test Logs
       if: always()
@@ -55,10 +55,10 @@ jobs:
     - name: Copy Report to gh-pages Folder
       if: always()
 
-      run: 
+      run: |
         mkdir -p public/extent-reports
-        cp -R report.html public/extent-reports/
-        cp -R screenshots/ public/extent-reports/screenshots/
+        cp -R report.html public/extent-reports/ || true
+        cp -R screenshots/ public/extent-reports/screenshots/ || true
         ls -l
 
     - name: Deploy
