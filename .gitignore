@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Automation framework generated files
+report.html
+screenshots/
+logs/
+test-output/
