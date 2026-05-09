@@ -3,6 +3,7 @@ package com.ui.pages;
 import com.utility.BrowserUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -32,6 +33,14 @@ public class SearchResultPage extends BrowserUtility {
                         (keywords.stream()
                                 .anyMatch(name.toLowerCase()::contains)));
         return result;
+    }
+
+    public ProductDetailPage clickOnTheProductAtIndex(int index){
+        waitForVisibility(ALL_PRODUCT_LISTS_NAME);
+        List<WebElement> products = getAllElements(ALL_PRODUCT_LISTS_NAME);
+        clickOn(products.get(index));
+        ProductDetailPage productDetailPage = new ProductDetailPage(getDriver());
+        return productDetailPage;
     }
 
 
