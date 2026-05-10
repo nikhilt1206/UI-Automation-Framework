@@ -126,7 +126,6 @@ public class BrowserUtility {
 
     public void clickOnCheckBox(By locator) {
         logger.info("Finding element with locator " + locator);
-        //WebElement element = driver.get().findElement(locator);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         logger.info("Element found and now performing click");
         element.click();
@@ -139,7 +138,6 @@ public class BrowserUtility {
 
     public void enterText(By locator, String textToEnter) {
         logger.info("Finding element with locator " + locator);
-        //WebElement element = driver.get().findElement(locator);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         logger.info("Element found and now enter text " + textToEnter);
         element.sendKeys(textToEnter);
@@ -147,7 +145,6 @@ public class BrowserUtility {
 
     public void enterSpecialKey(By locator, Keys keyToEnter) {
         logger.info("Finding element with locator " + locator);
-        //WebElement element = driver.get().findElement(locator);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         logger.info("Element found and now enter special key " + keyToEnter);
         element.sendKeys(keyToEnter);
@@ -250,7 +247,6 @@ public class BrowserUtility {
 
     public void clearText(By textBoxLocator) {
         logger.info("Finding element with locator" + textBoxLocator);
-        //WebElement element = driver.get().findElement(textBoxLocator);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(textBoxLocator));
         logger.info("Element found and now clearing the textbox field");
         element.clear();
